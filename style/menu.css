@@ -1,0 +1,33 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header{
+    font-family:Verdana,sans-serif;
+    width: auto ;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div#logo{
+    display: flex;
+}
+.ColorText{ 
+    background: linear-gradient(313deg, rgba(252,176,69,1) 20%, rgba(131,58,180,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div#menu{
+    font-weight: bold;
+    padding: 10px 10px ;
+}
+
+.menuElements{
+    padding-left: 20px;
+}

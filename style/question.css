@@ -1,0 +1,39 @@
+div#content{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 200px;
+}
+#question{
+    font-weight: bold;
+    margin-left: 45%;
+}
+form{
+    margin-left: 35%;
+    align-content: center;
+}
+div#btns{
+    margin-left: 50%;
+}
+
+#btnNext{
+    background: linear-gradient(90deg, rgba(252,176,69,1) 20%, rgba(131,58,180,1) 100%);
+    border-radius: 2px;
+    color:  white;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#btnExit{
+    background: grey;
+    border-radius: 2px;
+    color:  white;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}

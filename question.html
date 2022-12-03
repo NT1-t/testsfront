@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head id="header">
+        <link rel="stylesheet" href="style/question.css">
+        <link rel="stylesheet" href="style/menu.css">
+        <script type="text/javascript" src="JSON/Question.JSON"></script>
+        <script type="text/javascript" src="JS/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+            <h3 id="name">Own Finance <span class="ColorText">Bot</span></h3>
+        </div>
+            <div id="menu">
+                <span class="menuElements">Home</span>
+                <span class="menuElements">About</span>
+                <span class="menuElements">Support</span>
+                <span class="ColorText menuElements">Sign Up</span>
+            </div>
+        </header>
+        <div id="content">
+            
+
+            <h3 id="question">1.Мои эмоции берут верх над россудком </h3>
+            <form>
+              <input type="radio" id="html" name="question" value="HTML">
+              <label for="html" id="lblq1">Да, это точно про меня</label><br>
+              <input type="radio" id="css" name="question" value="CSS">
+              <label for="css" id="lblq2">Стараюсь соблюдать баланс, хотя и не всегда получается</label><br>
+              <input type="radio" id="javascript" name="question" value="JavaScript">
+              <label for="javascript" id="lblq3">Нет, у меня главный разум</label><br>
+              <input type="radio" id="javascript" name="question" value="JavaScript">
+              <label for="javascript" id="lblq4">Я умею регулировать свои эмоции</label>
+            </form>
+            <div id="btns">
+                <a>
+                    <button type="button" id="btnNext" onclick="getJsonData()">Далее</Button>
+                </a>   
+                <a href="main.html">
+                    <button type="button" id="btnExit" >Выход</Button>
+                </a>
+            </div>
+          
+        </div>
+       
+        
+    </body>
+    <footer>
+
+    </footer>
+</html>
